@@ -1,0 +1,114 @@
+.colorcard-title--text{
+    color: $dark-color;
+    font-weight: 600;
+    padding: 24px;
+    display: flex !important;
+    align-items: flex-start;
+    .title-text--line1{
+        font-size: $font-medium !important;
+    }
+    .title-text--line2{
+        font-size: $font-big;
+    }
+}
+
+.nonmotor-building--icon{
+    width: 50px !important;
+    height: 50px !important;
+    background-color: $ternary-color !important;
+    border: 2px dashed #2E9000;
+    border-radius: 16px !important;
+    color: #2E9000 !important;
+}
+
+.motor-building--icon{
+    width: 50px !important;
+    height: 50px !important;
+    background-color: $ternary-color !important;
+    border: 2px dashed #FF9424;
+    border-radius: 16px !important;
+    color: #FF9424 !important;
+}
+
+.medical-building--icon{
+    width: 50px !important;
+    height: 50px !important;
+    background-color: $ternary-color !important;
+    border: 2px dashed #BB342F;
+    border-radius: 16px !important;
+    color: #BB342F !important;
+}
+
+.customer-building--icon{
+    width: 50px !important;
+    height: 50px !important;
+    background-color: $ternary-color !important;
+    border: 2px dashed #B19502;
+    border-radius: 16px !important;
+    color: #B19502 !important;
+}
+
+.icon-expand--container{
+    margin-left: 0 !important;
+    align-items: center;
+}
+
+.icon-colorcard--container{
+    align-items: end;
+    padding: 24px;
+}
+
+.expand-textarrow--content{
+    display: flex !important;
+    align-items: center;
+    .expand-text{
+        color: $dark-color;
+        font-weight: bold;
+        font-size: 10px !important;
+        cursor: pointer;
+    }
+    .expand-forward--icon{
+        color: $dark-color !important;
+        cursor: pointer;
+    }
+}
+
+.expand-text:hover {
+    color: #BB342F;
+}
+
+.taskcard-title--textnumber{
+    padding: 24px;
+}
+
+.card-title--taskcomplete{
+    padding: 0 24px 0 0;
+    display: flex !important;
+    align-items: flex-start;
+    color: $ternary-color;
+    .task-title--line1{
+        font-size: $font-medium !important;
+    }
+    .task-title--line2{
+        font-size: $font-medium !important;
+    }
+}
+
+.card-title--tasktodo{
+    padding: 0 69px 0 0;
+    display: flex !important;
+    align-items: flex-start;
+    color: $ternary-color;
+    .task-title--line1{
+        font-size: $font-medium !important;
+    }
+    .task-title--line2{
+        font-size: $font-medium !important;
+    }
+}
+
+.card-title--number{
+    padding: 0 0 0 32px;
+    color: $ternary-color;
+    font-size: $font-x-big !important;
+}

@@ -1,0 +1,179 @@
+.main-container {
+    padding: 24px 0 24px 0;
+    width: 1200px;
+    .heading--card{
+        width: 258px;
+        height: 150px;
+        border-radius: $border-radius;
+    }
+    .body--card{
+        width: 540px;
+        height: 560px;
+        .tablecards--card{
+            width: 188px;
+            height: 152px;
+            border-radius: $border-radius;
+            padding: 24px;
+        }
+    }
+}
+
+.main--title-nonmotor{
+    background-color: #ACFF97;
+    border: 2px dashed #2E9000;
+}
+
+.main--title-nonmotor:hover{
+    background-color: $ternary-color;
+}
+
+.main--title-motor{
+    background-color: #FFD3A5;
+    border: 2px dashed #FF9424;
+}
+
+.main--title-motor:hover{
+    background-color: $ternary-color;
+}
+
+.main--title-medical{
+    background-color: #FFC0BD;
+    border: 2px dashed #BB342F;
+}
+
+.main--title-medical:hover{
+    background-color: $ternary-color;
+}
+
+.main--title-customer{
+    background-color: #FFF2AC;
+    border: 2px dashed #B19502;
+}
+
+.main--title-customer:hover{
+    background-color: $ternary-color;
+}
+
+.main--title-graph{
+    background-color: $ternary-color;
+    border-radius: $border-radius;
+}
+
+.main--title-approval{
+    background-color: $complete-color;
+}
+
+.main--title-approval:hover{
+    background-color: #03626d;
+}
+
+.main--title-nonapproval{
+    background-color: $todo-color;
+}
+
+.main--title-nonapproval:hover{
+    background-color: #2f3860;
+}
+
+.main--title-issues{
+    background-color: $issues-color;
+}
+
+.main--title-issues:hover{
+    background-color: #a93b31;
+}
+
+.main--buttons-group{
+    padding: $padding-normal;
+    .sub--button-create{
+        width: 233px;
+        height: 230px;
+        border-radius: $border-radius;
+        background-color: $primary-color;
+    }
+}
+
+.sub--button-group{
+    .sub--button-complete{
+        background-color: $complete-color;
+        border-radius: 16px;
+        height: 106px;
+        width: 280px;
+    }
+    .sub--button-todo{
+        background-color: $todo-color;
+        border-radius: 16px;
+        height: 106px;
+        width: 280px;
+    }
+}
+
+.sub--button-complete:hover{
+    background-color: #03626d;
+}
+
+.sub--button-todo:hover{
+    background-color: #2f3860;
+}
+
+.sub--button-create:hover{
+    background-color: #0eaa7c;
+}
+
+.sub--button-create{
+    .create-team--graph{
+        width: 140px;
+        height: 100px;
+        border-radius: $border-radius;
+        padding: $padding-normal;
+    }
+    .create-team--button{
+        width: 152px;
+        height: 40px;
+        background-color: $back-color;
+        border-radius: 16px;
+        font-weight: 600;
+        font-size: $font-small;
+        line-height: 42px;
+        color: $todo-color;
+        margin-left: 20px;
+    }
+}
+
+.create-team--button:hover{
+    background-color: #b2c2e6;
+}
+
+.main--graph-title{
+    padding: 0 24px 24px 24px;
+    margin-top: 0 !important;
+    .chart-box{
+        height: 264px;
+        border-radius: $border-radius;
+    }
+}
+
+.card-title--approveissues{
+    align-items: flex-end;
+    color: $ternary-color;
+    .approve-title--line1{
+        font-size: $font-big;
+    }
+    .approve-title--line2{
+        font-size: $font-x-big;
+    }
+    .approve-title--line3{
+        font-size: $font-small;
+    }
+    .approve-title--line4{
+        font-size: 18.6px;
+    }
+}
+
+.input--searchbar{
+    width: 500px;
+}
+
+// .main--title-approval:hover > .approve-title--line1 > .approve-title--line2 > .approve-title--line3 > .approve-title--line4 {
+//     margin-top: none;
+// }

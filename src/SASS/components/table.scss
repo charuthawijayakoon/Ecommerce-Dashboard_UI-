@@ -1,0 +1,31 @@
+.table--container{
+    border-radius: 16px 16px 0 0 !important;
+}
+
+.color--title-table > th{
+    background-color: $primary-color !important;
+    color: $dark-color !important;
+    font-size: $font-small;
+    font-weight: bold;
+}
+
+.checkbox--title-table{
+    display: flex;
+    padding: 0 16px !important;
+}
+
+.description-content--table{
+    padding: 1px 0 1px 28px !important;
+}
+
+.company-logo-avatar{
+    width: 10px !important;
+}
+
+.company-logo-avatar{
+    background-color: $ternary-color !important;
+}
+
+.title-table--row {
+    padding-left: 0 !important;
+}

@@ -1,0 +1,155 @@
+.drawer--left, .drawer--right{
+    background-color: $border-color;
+    width: 260px;
+    margin: 0;
+    z-index: 999;
+}
+
+.Drawer-icons{
+    padding: 42px 7px;
+    position: fixed;
+    color: $ternary-color;
+}
+
+.icon-customization {
+    background-color: $primary-color !important;
+    border-style: 2px solid !important;
+    border-color: $ternary-color !important;
+}
+
+.Drawer-icons--control{
+    padding: 42px 28px;
+    position: fixed;
+    color: $ternary-color;
+}
+
+.icon-border--dashboard:hover, .dashboard--icon:hover {
+    // border: 5px solid white;
+    border-radius: 100px;
+    .drawer--text-bar{
+        display: initial !important;
+    }
+}
+
+.icon-border--dashboard:hover{
+        // border: 5px solid $ternary-color;
+        outline: 5px solid #ffffff !important;
+        outline-offset: -5px;
+}
+
+.icon-border--format:hover, .format--icon:hover {
+    // border: 5px solid white;
+    border-radius: 100px;
+    .drawer--text-bar{
+        display: initial !important;
+    }
+}
+
+.icon-border--format:hover{
+        // border: 5px solid $ternary-color;
+        outline: 5px solid #ffffff !important;
+        outline-offset: -5px;
+}
+
+.icon-border--documents:hover, .documents--icon:hover {
+    // border: 5px solid white;
+    border-radius: 100px;
+    .drawer--text-bar{
+        display: initial !important;
+    }
+}
+
+.icon-border--documents:hover{
+        // border: 5px solid $ternary-color;
+        outline: 5px solid #ffffff !important;
+        outline-offset: -5px;
+}
+
+.icon-border--svat:hover, .svat--icon:hover {
+    // border: 5px solid white;
+    border-radius: 100px;
+    .drawer--text-bar{
+        display: initial !important;
+    }
+}
+
+.icon-border--svat:hover{
+        // border: 5px solid $ternary-color;
+        outline: 5px solid #ffffff !important;
+        outline-offset: -5px;
+}
+
+.icon-border--settings:hover, .settings--icon:hover {
+    // border: 5px solid white;
+    border-radius: 100px;
+    .drawer--text-bar{
+        display: initial !important;
+    }
+}
+
+.icon-border--settings:hover{
+        // border: 3px solid $ternary-color;
+        outline: 5px solid #ffffff !important;
+        outline-offset: -5px;
+}
+
+.drawer--text-bar{
+    position: absolute;
+    background-color: $ternary-color;
+    width: 400px;
+    border-radius: 100px;
+    padding: 5px 20px;
+    margin-top: 3.5px !important;
+    z-index: -1;
+    display: none !important;
+}
+
+.text-bar--dashboard {
+    color: $dark-color;
+    // font-size: $font-medium;
+    text-align: end;
+    font-weight: 600;
+}
+
+.text-bar--format {
+    color: $dark-color;
+    // font-size: $font-medium;
+    text-align: end;
+    font-weight: 600;
+}
+
+.text-bar--documents {
+    color: $dark-color;
+    // font-size: $font-medium;
+    text-align: end;
+    font-weight: 600;
+}
+
+.text-bar--svat {
+    color: $dark-color;
+    // font-size: $font-medium;
+    text-align: end;
+    font-weight: 600;
+}
+
+.text-bar--settings {
+    color: $dark-color;
+    // font-size: $font-medium;
+    text-align: end;
+    font-weight: 600;
+}
+
+.dashboard--icon {
+    position: relative;
+}
+
+.right--icon-drawer:hover {
+    // border: 3px solid $ternary-color;
+    // border-radius: 100px;
+    color: $primary-color !important;
+}
+
+.drawer--button-position{
+    height: fixed !important;
+    padding-top: fixed !important;
+}

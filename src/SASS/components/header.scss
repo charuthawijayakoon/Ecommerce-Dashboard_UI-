@@ -1,0 +1,47 @@
+.header-container {
+    padding: $padding-normal;
+    background-color: $border-color;
+    border-radius: $border-radius;
+    color: $ternary-color;
+    position: relative;
+    // height: 171px;
+    width: 1200px;
+}
+
+header{
+    padding: 25px 48px 25px 48px;
+}
+
+.header--title-left{
+    align-items: flex-start;
+    .title--left-row1{
+        font-size: $font-x-small;
+    }
+    .title--left-row2{
+        font-size: $font-big;
+    }
+    .title--left-row3 {
+        width: 446px;
+        .search-criteria{
+            margin-left: 0 !important;
+            border-radius: $full-curve-radius !important;
+            background-color: $back-color !important;
+            color: $border-color !important;
+        }
+    }
+}
+
+.header--title-right {
+    align-items: center;
+    .title--right-row1 .profile_picture{
+        border: 5px solid $ternary-color;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    .title--right-row2{
+        font-size: $font-medium;
+        font-weight: bold;
+    }
+    .title--right-row3{
+        font-size: $font-small;
+    }
+}
